@@ -1,0 +1,90 @@
+/* Reset styling default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2e2e2e; /* Background hitam */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff; /* Teks putih agar kontras */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 360px;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    background: linear-gradient(135deg, #6e31a4, #65368a);
+    color: white;
+    padding: 40px 20px;
+    border-bottom: 5px solid #ffffff;
+    border-radius: 20px 20px 0 0;
+}
+
+.profile-img img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto; /* Menengahkan gambar */
+}
+
+.header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.job-title {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.contact {
+    padding: 30px 20px;
+    background-color: #f7f7f7;
+    font-size: 16px;
+    color: #444;
+    border-top: 2px solid #e0e0e0;
+}
+
+.contact p {
+    margin-bottom: 15px;
+}
+
+.contact strong {
+    color: #8a37b6;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 90%;
+    }
+}

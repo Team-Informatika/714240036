@@ -3,116 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kartu Profil Pribadi</title>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BFXHLNCDVG"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <title>Document</title>
+    <title id="page-title">Profile</title>
+    <link rel="stylesheet" href="style.css">
 
-  gtag('config', 'G-BFXHLNCDVG');
-</script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #666666;
-            font-family: Arial, sans-serif;
-        }
-
-        .card {
-            width: 300px;
-            height: auto; /* Allow height to adjust based on content */
-            background-color: #ffffff;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-            text-align: center;
-            padding: 20px;
-            transition: transform 0.2s;
-        }
-
-        .card:hover {
-            transform: scale(1.05);
-        }
-
-        .profile-image {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-bottom: 20px;
-            border: 3px solid #12b400; /* Border color */
-        }
-
-        .name {
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 10px;
-            color: #333;
-        }
-
-        .job-title {
-            font-size: 18px;
-            color: #666;
-            margin-bottom: 10px;
-        }
-
-        .info {
-            font-size: 14px;
-            color: #555;
-            margin: 5px 0;
-        }
-
-        .skills {
-            font-size: 16px;
-            color: #555;
-            margin: 10px 0;
-        }
-
-        .social-icons {
-            display: flex;
-            justify-content: center;
-        }
-
-        .social-icon {
-            margin: 10px;
-            color: #12b400; /* Icon color */
-            font-size: 24px;
-            transition: color 0.3s;
-        }
-
-        .social-icon:hover {
-            color: #d9d9d9; /* Icon color on hover */
-        }
-    </style>
 </head>
 <body>
-    <div class="card">
-        <img src="foto-profil.JPG" alt="Foto Profil" class="profile-image">
-        <h2 class="name">Zidan Ardiansyah</h2>
-        <p class="job-title"><strong></strong>Web Developer</strong></p>
-        <p class="info">"We Progam, We Develop, We Innovate"</p>
-        <p class="info"><strong>Contact:</strong> +62 856-4038-9741</p>
-        <p class="info"><strong>Email:</strong> cakleghid@gmail.com</p>
-        <p class="skills"><strong>Language:</strong>HTML, CSS, JavaScript</p>
-        <h3 class="job-title">Hourly Rate</h3>
-        <p class="skills"><strong></strong>$5/project</p>
-        <div class="social-icons">
-    <a href="https://www.w3schools.com/html/" class="social-icon">
-        <i class="fab fa-html5"></i> <!-- Ikon HTML -->
-    </a>
-    <a href="https://www.w3schools.com/css/" class="social-icon">
-        <i class="fab fa-css3-alt"></i> <!-- Ikon CSS -->
-    </a>
-    <a href="https://www.w3schools.com/js/" class="social-icon">
-        <i class="fab fa-js"></i> <!-- Ikon JavaScript -->
-    </a>
-        </div>
+    <div class="container">
+        <div id="demo"></div>
     </div>
-    <script type="module" src="script.js"></script>
+    <script type="module" src="main.js"></script>
 </body>
 </html>
