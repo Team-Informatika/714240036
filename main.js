@@ -1,9 +1,5 @@
 import { getJSON } from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.2.0/api.js";
-import {
-  renderHTML,
-  onClick,
-  setInner,
-} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.8/element.js";
+import {renderHTML,} from "https://cdn.jsdelivr.net/gh/jscroot/lib@0.1.8/element.js";
 
 // onClick("whatsapp", myWa);
 // function myWa() {
@@ -16,8 +12,6 @@ import {
 // }
 
 renderHTML("demo", "home.html");
-
-//setInner("demo", "haloo cuy..");
 getJSON("https://t.if.co.id/json/badrul.json", null, null, responseFunction);
 
 function responseFunction(response) {
